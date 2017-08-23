@@ -1,13 +1,27 @@
 <?php
 /**
- * Plugin Name: Preloader
- * Plugin URI:        https://github.com/makashm/MIM-Preloader
- * Description:       Preloader Plugin for WordPress
- * Version:           1.0.0
- * Author:            Al Imran Akash
- * Author URI:        http://im.medhabi.com
- * Text Domain:       preloader
- * Domain Path:       /languages
+ * Plugin Name: 		Preloader
+ * Plugin URI:        	https://github.com/makashm/MIM-Preloader
+ * Description:       	Preloader Plugin for WordPress
+ * Version:           	1.0.0
+ * Author:            	Al Imran Akash
+ * Author URI:        	http://im.medhabi.com
+ * Text Domain:       	preloader
+ * Domain Path:       	/languages
+ */
+
+/**
+ * if accessed directly, exit.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * Main class for the plugin
+ * @package WordPress
+ * @subpackage MIM_PRELOADER
+ * @author Al Imran Akash
  */
 
 if( ! class_exists( 'MIM_PRELOADER' ) ) :
