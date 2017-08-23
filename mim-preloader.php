@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Preloader
- * Plugin URI:        http://codebanyan.com/product/mim-preloader
+ * Plugin URI:        https://github.com/makashm/MIM-Preloader
  * Description:       Preloader Plugin for WordPress
  * Version:           1.0.0
  * Author:            Al Imran Akash
